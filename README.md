@@ -1,6 +1,6 @@
 ##Preview
 
-![](https://gist.github.com/mstratman/ddd5abd956487a8b4102/raw/3c3e885edceb773a069a11c562069f5cda8e4160/preview.png)
+![](https://raw.githubusercontent.com/ParkWhiz/dashing-pivotal-velocity/master/preview.png)
 
 ## Description
 

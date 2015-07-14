@@ -4,7 +4,7 @@ require 'tracker_api'
 # to widgets with IDs of 'pivotal-<project_id>' (e.g. 'pivotal-1133342')
 projects = [999999,999998]
 
-client = TrackerApi::Client.new(token: ENV['PIVOTAL_API_TOKEN'], logger:Logger.new($stdout))
+client = TrackerApi::Client.new(token: ENV['PIVOTAL_API_TOKEN'])
 
 SCHEDULER.every '10m', :first_in => 0 do
   projects.each do |project_id|
